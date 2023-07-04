@@ -8,10 +8,8 @@ class FahrenheittoCelsius
              	    Scanner sc=new Scanner(System.in);	   	 
 	    System.out.println("Enter  Fahrenheit temperature");
                     double a=sc.nextDouble(); 
-	    System.out.println("Celsius temperature is = "+celsius(a));		  	  	     
+		    double b=  (a-32)*5/9;
+	    System.out.println("Celsius temperature is = "+b);		  	  	     
 	} 
-	static double celsius(double f)
-	{	
-	return  (f-32)*5/9;
-	}
+	
 }
